@@ -1,0 +1,60 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify9807327f44684-staging-211945-authRole",
+      "UnauthRoleArn": "arn:aws:iam::381492131164:role/amplify-amplify9807327f44684-staging-211945-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::381492131164:role/amplify-amplify9807327f44684-staging-211945-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplify9807327f44684-staging-211945-deployment",
+      "UnauthRoleName": "amplify-amplify9807327f44684-staging-211945-unauthRole",
+      "StackName": "amplify-amplify9807327f44684-staging-211945",
+      "StackId": "arn:aws:cloudformation:us-east-1:381492131164:stack/amplify-amplify9807327f44684-staging-211945/f8edc8b0-b4b4-11ee-98a5-0e2b0f092d73",
+      "AmplifyAppId": "d1qulawjohcw24",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplify9807327f44684-staging-211945-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "roomoccupancy2405e435": {
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::381492131164:role/service-role/AdminIdenPool",
+          "authRoleName": "AdminIdenPool",
+          "identityPoolId": "us-east-1:066bed1a-1f40-4c3e-8c5a-5c737d85bc1c",
+          "identityPoolName": "AdminIdenPool",
+          "nativeClientId": "4p37r3aboestrsprg5r2v8u6kq",
+          "unauthRoleArn": "arn:aws:iam::381492131164:role/service-role/IdenPoolGuest",
+          "unauthRoleName": "IdenPoolGuest",
+          "userPoolId": "us-east-1_EbgQ7lNbf",
+          "userPoolName": "Room Occupancy Admin",
+          "webClientId": "4p37r3aboestrsprg5r2v8u6kq"
+        },
+        "roomoccupancybf6b17ee": {
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::381492131164:role/service-role/AdminIdenPool",
+          "authRoleName": "AdminIdenPool",
+          "identityPoolId": "us-east-1:066bed1a-1f40-4c3e-8c5a-5c737d85bc1c",
+          "identityPoolName": "AdminIdenPool",
+          "nativeClientId": "4p37r3aboestrsprg5r2v8u6kq",
+          "unauthRoleArn": "arn:aws:iam::381492131164:role/service-role/IdenPoolGuest",
+          "unauthRoleName": "IdenPoolGuest",
+          "userPoolId": "us-east-1_EbgQ7lNbf",
+          "userPoolName": "Room Occupancy Admin",
+          "webClientId": "4p37r3aboestrsprg5r2v8u6kq"
+        }
+      },
+      "function": {
+        "camListLambda": {
+          "deploymentBucketName": "amplify-amplify9807327f44684-staging-211945-deployment",
+          "s3Key": "amplify-builds/camListLambda-4c5171313836312b392b-build.zip"
+        }
+      },
+      "storage": {
+        "cg22dynamo": {},
+        "clientstorage": {}
+      },
+      "api": {
+        "roomoccupancy": {},
+        "CamListREST": {}
+      }
+    }
+  }
+}

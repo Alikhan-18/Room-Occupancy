@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbarContainer"
+  >
+    <div
+      class="ui mini basic attached segment"
+      fluid="true"
+    >
+      <div
+        class="ui grid"
+      >
+        <div
+          class="six wide column"
+        >
+          <img
+            alt="logo"
+            src="test-file-stub"
+            width="300rem"
+          />
+        </div>
+        <div
+          class="center aligned five wide column"
+        >
+          <div
+            basic="true"
+            centered="true"
+            class="ui secondary menu"
+          >
+            <a
+              href="/"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                Home
+              </div>
+            </a>
+            <a
+              href="/learn"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                Learn
+              </div>
+            </a>
+            <a
+              href="/about"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                About
+              </div>
+            </a>
+            <a
+              href="/analytics"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                Analytics
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="right aligned five wide column"
+        >
+          <div
+            class="ui buttons"
+          >
+            <a
+              href="/login"
+            >
+              <button
+                class="ui button"
+              >
+                Login
+              </button>
+            </a>
+            <div
+              class="or"
+              data-text="or"
+            />
+            <a
+              href="/signup"
+            >
+              <button
+                class="ui blue button"
+              >
+                SignUp
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="container"
+  >
+    <div
+      class="ui compact very padded segment"
+    >
+      <h1
+        class="ui blue center aligned header"
+      >
+        <div
+          class="content"
+        >
+          Welcome
+        </div>
+        <div
+          class="sub header"
+          color="blue"
+        >
+          Login with Email
+        </div>
+      </h1>
+      <form
+        class="ui form"
+      >
+        <div
+          class="field"
+        >
+          <label>
+            Name
+          </label>
+          <div
+            class="ui left icon input"
+          >
+            <input
+              placeholder="Name"
+              type="text"
+            />
+            <i
+              aria-hidden="true"
+              class="user icon"
+            />
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <label>
+            Email
+          </label>
+          <div
+            class="ui left icon input"
+          >
+            <input
+              placeholder="Email"
+              type="email"
+            />
+            <i
+              aria-hidden="true"
+              class="mail icon"
+            />
+          </div>
+        </div>
+        <div
+          class="field"
+        >
+          <label>
+            Password
+          </label>
+          <div
+            class="ui left icon input"
+          >
+            <input
+              placeholder="Password"
+              type="password"
+            />
+            <i
+              aria-hidden="true"
+              class="lock icon"
+            />
+          </div>
+        </div>
+        <div
+          class="flexContainer"
+        >
+          <button
+            class="ui blue button"
+            type="submit"
+          >
+            Login
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Learn /> matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbarContainer"
+  >
+    <div
+      class="ui mini basic attached segment"
+      fluid="true"
+    >
+      <div
+        class="ui grid"
+      >
+        <div
+          class="six wide column"
+        >
+          <img
+            alt="logo"
+            src="test-file-stub"
+            width="300rem"
+          />
+        </div>
+        <div
+          class="center aligned five wide column"
+        >
+          <div
+            basic="true"
+            centered="true"
+            class="ui secondary menu"
+          >
+            <a
+              href="/"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                Home
+              </div>
+            </a>
+            <a
+              href="/learn"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                Learn
+              </div>
+            </a>
+            <a
+              href="/about"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                About
+              </div>
+            </a>
+            <a
+              href="/analytics"
+            >
+              <div
+                class="item"
+                role="menuitem"
+              >
+                Analytics
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="right aligned five wide column"
+        >
+          <div
+            class="ui buttons"
+          >
+            <a
+              href="/login"
+            >
+              <button
+                class="ui button"
+              >
+                Login
+              </button>
+            </a>
+            <div
+              class="or"
+              data-text="or"
+            />
+            <a
+              href="/signup"
+            >
+              <button
+                class="ui blue button"
+              >
+                SignUp
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div
+    class="container"
+  >
+    <h1
+      class="ui blue center aligned header"
+    >
+      <div
+        class="content"
+      >
+        Learn
+      </div>
+    </h1>
+    <br />
+    <div
+      class="ui grid"
+    >
+      <div
+        class="two column row"
+      >
+        <div
+          class="column"
+        >
+          The UBC Cloud Innovation Center seeks a cutting-edge solution to address the challenge of real-time people counting and occupancy monitoring in spaces, such as rooms or traffic areas. This solution should utilize IoT devices, an open-source image processor, and cloud services to accurately count and track the number of people in these areas. The data gathered should be presented via a user-friendly interface that efficiently conveys information.
+        </div>
+        <div
+          class="column"
+        >
+          <img
+            class="ui big image"
+            src="test-file-stub"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
